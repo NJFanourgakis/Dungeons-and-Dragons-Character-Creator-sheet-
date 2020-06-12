@@ -22,6 +22,7 @@ public class checkemptys : MonoBehaviour
     public setterinfo si;
     public GameObject first;
     public GameObject second;
+    public GameObject third;
     void Start()
     {
         
@@ -51,8 +52,9 @@ public class checkemptys : MonoBehaviour
         first.active = false;
         second.active = true;
     }
-    void LSet(string words)
+    public void tobackground()
     {
-
+        second.active = false;
+        third.active = true;
     }
 }

@@ -682,7 +682,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &91667380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -933,7 +933,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &113229322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1031,7 +1031,7 @@ RectTransform:
   - {fileID: 1939865214}
   - {fileID: 128696150}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1327,7 +1327,7 @@ GameObject:
   - component: {fileID: 128696152}
   - component: {fileID: 128696151}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Enter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4476,6 +4476,7 @@ MonoBehaviour:
   si: {fileID: 459585554}
   first: {fileID: 113229321}
   second: {fileID: 133438972}
+  third: {fileID: 91667379}
 --- !u!4 &459585553
 Transform:
   m_ObjectHideFlags: 0
@@ -6864,10 +6865,10 @@ RectTransform:
   m_Father: {fileID: 91667383}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1, y: 0}
-  m_SizeDelta: {x: 481, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &601623823
 MonoBehaviour:
@@ -14748,7 +14749,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1329567233
 GameObject:
@@ -16634,7 +16635,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -502}
+  m_AnchoredPosition: {x: 0, y: -486}
   m_SizeDelta: {x: 470, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1508442731
@@ -16680,15 +16681,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 876998062}
-        m_MethodName: raceset
+      - m_Target: {fileID: 459585552}
+        m_MethodName: tobackground
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: click
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1508442732
@@ -19865,7 +19866,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1867434868
