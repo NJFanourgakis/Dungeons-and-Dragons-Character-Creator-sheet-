@@ -265,6 +265,9 @@ public class Spells : MonoBehaviour
                             }
                         case "Armor of Agathys":
                             {
+                                d = "casting Time: 1 action\n" +
+                                    "Rage: Sefl\n" +
+                                    "14";
                                 break;
                             }
                         case "Arms of Handar":
